@@ -2,7 +2,7 @@
 @media (max-width: 450px) {
     *{
         font-size: 45%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     #hero-section, #courses-section, #compaies-section, #jobseekers-section, #testimonials, #faq-section, #contactus-section{
