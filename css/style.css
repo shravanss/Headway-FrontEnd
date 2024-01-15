@@ -1055,3 +1055,163 @@ body {
 
 /* --------------------------------------------------------------------------- */
 /* Jobs Page End*/
+
+/* --------------------------------------------------------------------------- */
+/* Workshop Page Start*/
+
+.workshopsection{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content !important;
+    padding-bottom: 80px !important;
+}
+
+.workshop-hero-container{
+    width: 80%;
+    display: flex;
+}
+
+.workshop-hero-div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.workshop-hero-div1 h3{
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.workshop-hero-div1 iframe{
+    width: 100%;
+    height: 300px;
+    border: 10px;
+}
+
+.workshop-hero-div1 button{
+    font-size: 3.5rem;
+    background-color: var(--color-hover);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+
+.workshop-hero-div2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workshop-schedule-container{
+    width: 80%;
+    height: 100%;
+    background-color: #ECF8FB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.workshop-schedule-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.workshop-schedule-inner-div{
+    display: flex;
+    background-color: var(--color-hover);
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 48%;
+    height: 70px;
+}
+
+.workshop-schedule-inner-div img{
+    width: 30%;
+    padding-right: 5px;
+}
+
+.workshop-schedule-inner-div p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 70%;
+}
+
+.workshop-resource-person-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #8C8C8C;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.workshop-resource-person-container h5{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.workshop-resource-person-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.workshop-resource-person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    width: 45%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.workshop-person-image-container{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--color-hover);
+    background-image: url('/assets/workshop-person.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.workshop-resource-person-div h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.workshop-resource-person-div h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8C8C8C;
+}
+
+.workshop-resource-person-div p{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8C8C8C;
+}
+
+/* --------------------------------------------------------------------------- */
+/* Workshop Page End*/

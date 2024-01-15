@@ -183,6 +183,35 @@
         padding: 40px 0;
     }
 
+    .workshop-hero-container{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .workshop-hero-div1, .workshop-hero-div2{
+        width: 100%;
+    }
+
+    .workshop-hero-div1 iframe{
+        margin: 20px 0;
+    }
+
+    .workshop-hero-div1 button{
+        margin-bottom: 20px;
+    }
+
+    .workshop-schedule-container{
+        width: 100%;
+    }
+
+    .workshop-resource-person-div{
+        flex-direction: column;
+    }
+
+    .workshop-resource-person{
+        width: 80%;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
