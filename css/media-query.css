@@ -157,6 +157,32 @@
         scale: 50%;
     }
 
+    .jobs-slider-container{
+        height: fit-content !important;
+    }
+
+    #jobs-hero-section{
+        padding: 0 20px;
+        padding-bottom: 50px;
+    }
+
+    #jobs-list-sec{
+        padding: 0 20px;
+    }
+
+    .job-cards-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #jobs-list-sec .courses-head-container{
+        padding: 40px 0;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -321,6 +347,158 @@
 @media (min-width: 576px) and (max-width: 768px) {
    *{
         font-size: 50%;
+    }
+
+    #hero-section, #courses-section, #compaies-section, #jobseekers-section, #testimonials, #faq-section, #contactus-section{
+        padding: 50px;
+        height: fit-content;
+    }
+
+    .index-nav-res-container{
+        /* display: none; */
+        padding: 30px;
+        width: fit-content;
+        position: absolute;
+        z-index: 1000;
+        right: 20px;
+        top: 90px;
+        background-color: #ECF8FB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .index-nav-entries{
+        padding: 10px 0;
+    }
+
+    .index-nav-entries-container{
+        flex-direction: column;
+    }
+
+    .slider-container{
+        height: auto;
+    }
+
+    .slider-content-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .index-slider-para{
+        width: 80%;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mySlides{
+        flex-direction: column;
+    }
+
+    .slider-image {
+        width: 100%;
+    }
+
+    .index-slider-head{
+        padding-top: 20px;
+        font-size: 5rem;
+    }
+
+    .index-slider-sub{
+        font-size: 5rem;
+    }
+
+    #courses-section, #jobseekers-section{
+        padding-bottom: 0;
+    }
+
+    .courses-content-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .courses-content-div{
+        width: 80%;
+    }
+
+    .courses-content-image img{
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .courses-content-div h3{
+        margin-top: 30px;
+    }
+
+    .courses-content-div p{
+        margin: 20px 0;
+    }
+
+    .companies-content-image img{
+        margin-top: 20px;
+    }
+
+    .testimonial-content-div{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .testimonial-image-div{
+        width: 0;
+    }
+
+    .testimonial-image-div img, .test-move-button-left, .test-move-button-right{
+        display: none;
+    }
+
+    .partner-logo-div {
+        padding: 30px;
+    }
+
+    .faq-content-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .accordion{
+        width: 100%;
+    }
+
+    .faq-image-div img{
+        display: none;
+    }
+
+    .contact-us-content-container{
+        flex-direction: column;
+    }
+
+    .contactus-form-container{
+        width: 100%;
+    }
+
+    .contactus-form{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .contactus-contact-details-container{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contactus-map{
+        max-width: fit-content;
+    }
+
+    #index-footer img{
+        scale: 50%;
     }
     
 }
