@@ -142,7 +142,7 @@ body {
 .dot {
     height: 15px;
     width: 15px;
-    margin: 0 2px solid #8C8C8C;
+    border: 2px solid #8C8C8C;
     background-color: #545B6D;
     border-radius: 50%;
     display: inline-block;
@@ -586,7 +586,7 @@ body {
   top: 9px;
   left: 5px;
   width: 10px;
-  height: 2px solid #8C8C8C;
+  height: 2px;
   background: var(--color-primary);
 }
 .accordion button .icon::after {
@@ -595,7 +595,7 @@ body {
   content: '';
   top: 5px;
   left: 9px;
-  width: 2px solid #8C8C8C;
+  width: 2px;
   height: 10px;
   background: var(--color-primary);
 }
@@ -677,7 +677,7 @@ body {
     font-weight: 700;
     background: none;
     outline: none;
-    border: 2px solid #8C8C8C solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -687,7 +687,7 @@ body {
     font-weight: 700;
     background: none;
     outline: none;
-    border: 2px solid #8C8C8C solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     border-radius: 5px;
     padding: 5px 10px;
     resize: none;
@@ -814,7 +814,7 @@ body {
 }
 
 .jobs-slider-image{
-    width: 35;
+    width: 35%;
 }
 
 .jobs-content-container{
@@ -1215,3 +1215,71 @@ body {
 
 /* --------------------------------------------------------------------------- */
 /* Workshop Page End*/
+
+/* --------------------------------------------------------------------------- */
+/* Company Page Start*/
+
+.what-offer-head-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.what-offer-head-container h5{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.what-offer-selected{
+    border-bottom: 3px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.what-offer-content{
+    width: 100%;
+}
+
+.what-offer-content p{
+    font-size: 1.8rem;
+}
+
+#job-postings:hover, #hiring-through-profiles:hover, #bulk-hiring:hover{
+    cursor: pointer;
+}
+
+#acheivement-section{
+    width: 100vw;
+    background-color: var(--background);
+    height: fit-content;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.acheivement-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-hover);
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.acheivement-div h1{
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+.acheivement-div h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------- */
+/* Company Page End*/
