@@ -127,6 +127,10 @@
         width: 100%;
     }
 
+    .accordion button .icon{
+        top: 7px;
+    }
+
     .faq-image-div img{
         display: none;
     }
@@ -339,6 +343,10 @@
 
     .accordion{
         width: 100%;
+    }
+
+    .accordion button .icon{
+        top: 5px;
     }
 
     .faq-image-div img{
