@@ -1285,3 +1285,167 @@ body {
 
 /* --------------------------------------------------------------------------- */
 /* Company Page End*/
+
+/* --------------------------------------------------------------------------- */
+/* College Page Start*/
+
+.offered-course-sec{
+    height: fit-content !important;
+}
+
+.offered-courses-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.courses-card-div{
+    width: fit-content;
+    height: 300px;
+    background-color: #ECF8FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.courses-card-div h3{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.courses-card-div p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 300px;
+    padding: 20px 0;
+}
+
+.courses-card-div button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-self: flex-end;
+    background-color: var(--color-hover);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+}
+
+.enquiry-form-bg{
+    position: fixed;
+    overflow: hidden;
+    scroll-behavior: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 500;
+    background: rgba(152, 234, 255, 0.13);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enuiry-form-container{
+    width: 60%;
+    height: fit-content;
+    background-color: #98EAFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.enquiry-form-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enquiry-form-header h4{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.enquiry-form-header img{
+    width: 3%;
+}
+
+.enquiry-form-content-container{
+    width: 100%;
+    display: flex;
+}
+
+.enquiry-form-course-details-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquiry-form-course-details{
+    background-color: var(--color-secondary);
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.enquiry-form-course-details p{
+    font-size: 1.5rem;
+}
+
+.enquiry-form-contact-form-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquiy-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.enquiry-form-entries-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.enquiry-form-entries-div label{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.enquiry-form-entries-div input{
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: none;
+    border: 2px solid var(--color-3);
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.enquiry-form-submit-btn{
+    width: fit-content;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    padding: 5px 20px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+
+/* --------------------------------------------------------------------------- */
+/* College Page End*/
