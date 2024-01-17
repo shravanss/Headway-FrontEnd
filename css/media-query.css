@@ -12,7 +12,7 @@
 
     .index-nav-res-container{
         /* display: none; */
-        padding: 30px;
+        padding: 30px 50px;
         width: fit-content;
         position: absolute;
         z-index: 1000;
@@ -25,7 +25,14 @@
         justify-content: space-between;
         border-radius: 10px;
         box-shadow: -20px 20px 20px 0px rgba(0, 0, 0, 0.25);
+    }
 
+    .index-navbar-container-large{
+        display: none;
+    }
+
+    .index-navbar-container-hamburger{
+        display: flex;
     }
 
     .index-nav-entries{
@@ -231,6 +238,7 @@
 
     .enuiry-form-container{
         width: 90%;
+        margin: 50px 0;
     }
 
     .enquiry-form-bg{
@@ -255,6 +263,13 @@
         width: 80%;
     }
 
+    .courses-card-div p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: fit-content;
+        padding: 20px 0;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -262,6 +277,7 @@
     *{
         font-size:48%;
     }
+
     #hero-section, #courses-section, #compaies-section, #jobseekers-section, #testimonials, #faq-section, #contactus-section{
         padding: 30px;
         height: fit-content;
@@ -269,17 +285,27 @@
 
     .index-nav-res-container{
         /* display: none; */
-        padding: 30px;
+        padding: 30px 80px;
         width: fit-content;
         position: absolute;
         z-index: 1000;
         right: 20px;
-        top: 90px;
+        top: 100px;
         background-color: #ECF8FB;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        border-radius: 10px;
+        box-shadow: -20px 20px 20px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .index-navbar-container-large{
+        display: none;
+    }
+
+    .index-navbar-container-hamburger{
+        display: flex;
     }
 
     .index-nav-entries{
@@ -385,7 +411,7 @@
     }
 
     .accordion button .icon{
-        top: 5px;
+        top: 7px;
     }
 
     .faq-image-div img{
@@ -417,6 +443,113 @@
     #index-footer img{
         scale: 50%;
     }
+
+    .jobs-slider-container{
+        height: fit-content !important;
+    }
+
+    #jobs-hero-section{
+        padding: 0 20px;
+        padding-bottom: 50px;
+    }
+
+    #jobs-list-sec{
+        padding: 0 20px;
+    }
+
+    .job-cards-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #jobs-list-sec .courses-head-container{
+        padding: 40px 0;
+    }
+
+    .workshop-hero-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .workshop-hero-div1, .workshop-hero-div2{
+        width: 100%;
+    }
+
+    .workshop-hero-div1 iframe{
+        margin: 20px 0;
+    }
+
+    .workshop-hero-div1 button{
+        margin-bottom: 20px;
+    }
+
+    .workshop-schedule-container{
+        width: 100%;
+    }
+
+    .workshop-resource-person-div{
+        flex-direction: column;
+    }
+
+    .workshop-resource-person{
+        width: 80%;
+    }
+
+    .enquiry-form-header img{
+        width: 8%;
+    }
+
+    .enquiry-form-content-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .enuiry-form-container{
+        width: 90%;
+        margin: 50px 0;
+    }
+
+    .enquiry-form-bg{
+        min-height: 100vh;
+    }
+
+    .enquiry-form-course-details{
+        width: 100%;
+    }
+    
+    .enquiry-form-course-details-container{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .enquiry-form-contact-form-container{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #index-footer p{
+        width: 80%;
+    }
+
+    .courses-card-div p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: fit-content;
+        padding: 20px 0;
+    }
+
+    .menu-button{
+        width: 6%;
+    }
+
+    .menu-close{
+        width: 4%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -430,19 +563,34 @@
         height: fit-content;
     }
 
+    #hero-section, #courses-section, #compaies-section, #jobseekers-section, #testimonials, #faq-section, #contactus-section{
+        padding: 20px;
+        height: fit-content;
+    }
+
     .index-nav-res-container{
         /* display: none; */
-        padding: 30px;
+        padding: 30px 80px;
         width: fit-content;
         position: absolute;
         z-index: 1000;
         right: 20px;
-        top: 90px;
+        top: 100px;
         background-color: #ECF8FB;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        border-radius: 10px;
+        box-shadow: -20px 20px 20px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .index-navbar-container-large{
+        display: none;
+    }
+
+    .index-navbar-container-hamburger{
+        display: flex;
     }
 
     .index-nav-entries{
@@ -547,6 +695,10 @@
         width: 100%;
     }
 
+    .accordion button .icon{
+        top: 7px;
+    }
+
     .faq-image-div img{
         display: none;
     }
@@ -575,6 +727,113 @@
 
     #index-footer img{
         scale: 50%;
+    }
+
+    .jobs-slider-container{
+        height: fit-content !important;
+    }
+
+    #jobs-hero-section{
+        padding: 0 20px;
+        padding-bottom: 50px;
+    }
+
+    #jobs-list-sec{
+        padding: 0 20px;
+    }
+
+    .job-cards-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #jobs-list-sec .courses-head-container{
+        padding: 40px 0;
+    }
+
+    .workshop-hero-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .workshop-hero-div1, .workshop-hero-div2{
+        width: 100%;
+    }
+
+    .workshop-hero-div1 iframe{
+        margin: 20px 0;
+    }
+
+    .workshop-hero-div1 button{
+        margin-bottom: 20px;
+    }
+
+    .workshop-schedule-container{
+        width: 100%;
+    }
+
+    .workshop-resource-person-div{
+        flex-direction: column;
+    }
+
+    .workshop-resource-person{
+        width: 80%;
+    }
+
+    .enquiry-form-header img{
+        width: 8%;
+    }
+
+    .enquiry-form-content-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .enuiry-form-container{
+        width: 90%;
+        margin: 50px 0;
+    }
+
+    .enquiry-form-bg{
+        min-height: 100vh;
+    }
+
+    .enquiry-form-course-details{
+        width: 100%;
+    }
+    
+    .enquiry-form-course-details-container{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .enquiry-form-contact-form-container{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #index-footer p{
+        width: 80%;
+    }
+
+    .courses-card-div p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: fit-content;
+        padding: 20px 0;
+    }
+
+    .menu-button{
+        width: 5%;
+    }
+
+    .menu-close{
+        width: 3%;
     }
     
 }

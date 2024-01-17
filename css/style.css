@@ -38,12 +38,20 @@ body {
     padding: 30px 0;
 }
 
+.index-navbar-container-hamburger{
+    display: none;
+}
+
 .index-nav-logo{
     width: 75%;
 }
 
-.menu-button, .menu-close{
-    width: 8%;
+.menu-button{
+    width: 10%;
+}
+
+.menu-close{
+    width: 6%;
 }
 
 
@@ -74,8 +82,13 @@ body {
     width: 70%;
     align-items: center;
     justify-content: space-between;
-    box-shadow: -20px 20px 20px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
+
+.index-nav-res-container h6{
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-top: 10px;
 }
 
 .index-nav-entries-container a{
@@ -93,6 +106,47 @@ body {
     padding: 0 20px;
 }
 
+.nav-student-container{
+    display: flex !important;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.nav-student-dropdown{
+    position: relative;
+    display: none;
+    background-color: #626262;
+    z-index: 1000;
+    left: 2rem;
+}
+
+.nav-student-dropdown .dummy-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: fit-content;
+}
+
+.nav-student-dropdown a{
+    font-size: 2rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+.nav-student-dropdown a:hover{
+    background-color: #dddddd;
+    color: var(--color-3);
+}
+
+.nav-student-container:hover .nav-student-dropdown {
+    display: block;
+}
+
+
+
 .index-nav-login-btn{
     font-size: 2rem;
     font-weight: 700;
@@ -107,6 +161,22 @@ body {
 .index-nav-login-btn:hover{
     background-color: var(--color-hover);
     color: var(--color-3);
+}
+
+.profile-icon-container{
+    width: 50px;
+    height: 50px;
+    background-color: #aeaeae;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-icon{
+    width: 50px;
+    height: 50px;
 }
 
 .slider-container{
@@ -1304,7 +1374,7 @@ body {
 
 .courses-card-div{
     width: fit-content;
-    height: 300px;
+    height: fit-content;
     background-color: #ECF8FB;
     display: flex;
     flex-direction: column;
@@ -1313,6 +1383,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
+    flex-wrap: wrap;
 }
 
 .courses-card-div h3{

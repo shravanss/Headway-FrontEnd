@@ -17,3 +17,4 @@ menuCloseButton.addEventListener("click", function(){
     menuButton.classList.remove('hidden');
     navBar.classList.add('hidden');
 });
+
