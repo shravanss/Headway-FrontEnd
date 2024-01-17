@@ -219,6 +219,42 @@
         width: 80%;
     }
 
+    .enquiry-form-header img{
+        width: 8%;
+    }
+
+    .enquiry-form-content-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .enuiry-form-container{
+        width: 90%;
+    }
+
+    .enquiry-form-bg{
+        min-height: 100vh;
+    }
+
+    .enquiry-form-course-details{
+        width: 100%;
+    }
+    
+    .enquiry-form-course-details-container{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .enquiry-form-contact-form-container{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #index-footer p{
+        width: 80%;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */

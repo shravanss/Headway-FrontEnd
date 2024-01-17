@@ -1340,8 +1340,7 @@ body {
 
 .enquiry-form-bg{
     position: fixed;
-    overflow: hidden;
-    scroll-behavior: none;
+    /* scroll-behavior: none; */
     width: 100vw;
     height: 100vh;
     z-index: 500;
