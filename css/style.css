@@ -6,6 +6,7 @@
     font-size: 62.5%;
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -118,6 +119,11 @@ body {
     background-color: #626262;
     z-index: 1000;
     left: 2rem;
+}
+
+.nav-list-student img{
+    width: 25%;
+    padding-left: 10px;
 }
 
 .nav-student-dropdown .dummy-div{

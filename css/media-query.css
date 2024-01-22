@@ -270,6 +270,11 @@
         padding: 20px 0;
     }
 
+    .nav-student-dropdown{
+        left: 0;
+    }
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
