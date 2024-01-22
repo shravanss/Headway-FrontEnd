@@ -9,71 +9,72 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media-query.css">
 
-    <script src="/script/sliderController.js"></script>
     <script defer src="/script/navbarHandler.js"></script>
     <script defer src="/script/whatWeOfferHandler.js"></script>
     <script defer src="/script/faqExpandedViewHandler.js"></script>
 </head>
 <body>
     <section id="hero-section">
-        <nav class="index-navbar-container">
+        <nav class="index-navbar-container index-navbar-container-hamburger">
             <a href="#"><img class="index-nav-logo" src="/assets/logos/Logo Original.svg" alt="headway logo"></a>
             <img class="menu-button" src="/assets/menu-button.svg" alt="">
-            <!-- <div class="nav-background"> -->
                 <img class="menu-close hidden" src="/assets/closw-button.svg" alt="">
                 <div class="index-nav-res-container hidden">
                     <ul class="index-nav-entries-container">
                         <a href=""><li class="index-nav-entries">Home</li></a>
-                        <a href=""><li class="index-nav-entries">Students</li></a>
+                        <div class="nav-student-container" href="">
+                    <li class="index-nav-entries nav-list-student">Students <img src="/assets/select-icon.svg" alt=""></li>
+                    <div class="nav-student-dropdown">
+                        <div class="dummy-div">
+                            <a href="/html/jobs.html">Jobs</a>
+                            <a href="/html/workshop.html">Workshops</a>
+                        </div>
+                    </div>
+                </div>
                         <a href=""><li class="index-nav-entries">Companies</li></a>
                         <a href=""><li class="index-nav-entries">Colleges</li></a>
-                        <a href="#contact-us"><li class="index-nav-entries">Contact us</li></a>
+                        <a href="#contactus-section"><li class="index-nav-entries">Contact us</li></a>
                     </ul>
                     <a class="index-nav-login-btn" href="#">Login</a>
+                    <h6>View Profile</h6>
                 </div>
-            <!-- </div> -->
-            
-            
+  
+        </nav>
+
+        <nav class="index-navbar-container index-navbar-container-large">
+            <a href="/html/index.html"><img class="index-nav-logo" src="/assets/logos/Logo Original.svg" alt="headway logo"></a>
+            <ul class="index-nav-entries-container">
+                <a href="/html/index.html"><li class="index-nav-entries">Home</li></a>
+                <div class="nav-student-container" href="">
+                    <li class="index-nav-entries nav-list-student">Students <img src="/assets/select-icon.svg" alt=""></li>
+                    <div class="nav-student-dropdown">
+                        <div class="dummy-div">
+                            <a href="/html/jobs.html">Jobs</a>
+                            <a href="/html/workshop.html">Workshops</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="/html/company.html"><li class="index-nav-entries">Companies</li></a>
+                <a href="/html/colleges.html"><li class="index-nav-entries">Colleges</li></a>
+                <a href="/html/index.html#contactus-section"><li class="index-nav-entries index-nav-entries-contactus">Contact us</li></a>
+            </ul>
+            <a class="index-nav-login-btn" href="#">Login</a>
+            <!-- <div class="profile-icon-container">
+                <img class="profile-icon" src="/assets/profile-icon.svg"/>
+            </div>            -->
         </nav>
         <div class="slider-container">
             <div class="mySlides fade">
                 <!-- <div class="numbertext">1 / 3</div> -->
                 <div class="slider-content-container">
-                    <p class="index-slider-head">Welcome to</p>
-                    <p class="index-slider-sub">Headway 01</p>
-                    <p class="index-slider-para">Empowering Education, Igniting Careers, and Fueling Growth</p>
-                    <a class="index-slider-button" href="#">Contact Us</a>
+                    <!-- <p class="index-slider-head">#HireWithHeadway</p> -->
+                    <p class="index-slider-sub company-slider-head">#HireWithHeadway</p>
+                    <p class="index-slider-para">Fill up the open positions & Onboard the Perfect fit</p>
+                    <a class="index-slider-button" href="#">Sign up</a>
                 </div>
                 <img class="slider-image" src="/assets/Index Banner 01.jpg">
                 <!-- <div class="text">Caption Text</div> -->
-            </div>
-            <div class="mySlides fade">
-                <!-- <div class="numbertext">2 / 3</div> -->
-                <div class="slider-content-container">
-                    <p class="index-slider-head">Welcome to</p>
-                    <p class="index-slider-sub">Headway 02</p>
-                    <p class="index-slider-para">Empowering Education, Igniting Careers, and Fueling Growth</p>
-                    <a class="index-slider-button" href="#">Contact Us</a>
-                </div>
-                <img class="slider-image" src="/assets/Index Banner 01.jpg">
-                <!-- <div class="text">Caption Two</div> -->
-            </div>
-            <div class="mySlides fade">
-                <!-- <div class="numbertext">3 / 3</div> -->
-                <div class="slider-content-container">
-                    <p class="index-slider-head">Welcome to</p>
-                    <p class="index-slider-sub">Headway 03</p>
-                    <p class="index-slider-para">Empowering Education, Igniting Careers, and Fueling Growth</p>
-                    <a class="index-slider-button" href="#">Contact Us</a>
-                </div>
-                <img class="slider-image" src="/assets/Index Banner 01.jpg">
-                <!-- <div class="text">Caption Three</div> -->
-            </div>
-
-            <div class="dot-container">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
             </div>
         </div>
     </section>
@@ -286,15 +287,6 @@ posse the skill.
                     <div class="contactus-entries-container">
                         <label for="contact">Contact</label>
                         <input type="tel">
-                    </div>
-                    <div class="contactus-entries-container">
-                        <label for="contact">Role</label>
-                        <select name="role" id="role">
-                            <option value="" disabled selected>Select</option>
-                            <option value="Student">Student</option>
-                            <option value="College">College</option>
-                            <option value="Company">Company</option>
-                        </select>
                     </div>
                     <div class="contactus-entries-container">
                         <label for="message">Message</label>
