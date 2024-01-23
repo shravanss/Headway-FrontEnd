@@ -10,3 +10,5 @@ knowMoreBtn.addEventListener("click", function(){
 enquiryPopupCloseBtn.addEventListener("click", function(){
     enquiryPopupBg.classList.add('hidden');
 });
+
+

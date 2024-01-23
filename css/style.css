@@ -1684,6 +1684,69 @@ body {
     line-height: 180%;
 }
 
+.application-submit-confirm-popup-bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(152, 234, 255, 0.13);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.application-submit-confirm-popup{
+    max-width: 550px;
+    height: fit-content;
+    background-color: var(--color-hover);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.application-submit-confirm-popup-close-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.application-submit-confirm-popup-close-div img{
+    scale: 60%;
+}
+
+.application-submit-confirm-popup-content-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.application-submit-confirm-popup-content-div p{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.application-submit-confirm-popup-content-div button{
+    background-color: var(--color-primary);
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    color: var(--color-secondary);
+    font-weight: 700;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.application-submit-confirm-close:hover{
+    cursor: pointer;
+}
 
 
 /* --------------------------------------------------------------------------- */

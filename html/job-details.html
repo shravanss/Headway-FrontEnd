@@ -8,15 +8,28 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media-query.css">
+
+    <script defer src="/script/jobApplyConfirmPopupHandler.js"></script>
 </head>
 <body>
+    <div class="application-submit-confirm-popup-bg hidden">
+        <div class="application-submit-confirm-popup">
+            <div class="application-submit-confirm-popup-close-div">
+                <img class="application-submit-confirm-close" src="/assets/enquiry-close.svg" alt="">
+            </div>
+            <div class="application-submit-confirm-popup-content-div">
+                <p>Are you sure want to continue with the application ?</p>
+                <button>Apply</button>
+            </div>
+        </div>
+    </div>
     <section id="job-details-section">
         <div class="job-details-sec-page-header-container">
             <div class="job-details-sec-page-header-div">
                 <a href="javascript:window.history.back();"><img src="/assets/job-details-back-btn.svg" alt="go back"></a>
                 <h2>Job Details</h2>
             </div>
-            <button>Apply Now</button>
+            <button id="apply-now-btn">Apply Now</button>
         </div>
         <div class="job-details-sec-company-details-container">
             <div class="job-details-sec-company-details-div">
