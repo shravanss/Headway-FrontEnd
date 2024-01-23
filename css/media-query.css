@@ -283,6 +283,37 @@
         word-break: break-word;
     }
 
+    #job-details-section{
+        height: fit-content;
+        background-color: var(--color-secondary);
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .job-details-sec-page-header-container{
+        flex-direction: column;
+    }
+
+    .job-details-sec-page-header-container button{
+        margin: 30px 0;
+    }
+
+    .job-details-sec-company-details-container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .job-details-sec-company-details-div{
+        width: 50%;
+        padding: 20px 0;
+    }
+
+    .job-details-sec-company-job-desc-div{
+        padding: 20px;
+    }
+
 
 }
 
@@ -579,6 +610,37 @@
         word-break: break-word;
     }
 
+    #job-details-section{
+        height: fit-content;
+        background-color: var(--color-secondary);
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .job-details-sec-page-header-container{
+        flex-direction: column;
+    }
+
+    .job-details-sec-page-header-container button{
+        margin: 30px 0;
+    }
+
+    .job-details-sec-company-details-container{
+        /* display: flex; */
+        /* flex-direction: column; */
+        padding: 20px;
+    }
+
+    .job-details-sec-company-details-div{
+        width: 25%;
+        padding: 20px 0;
+    }
+
+    .job-details-sec-company-job-desc-div{
+        padding: 20px;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -871,6 +933,28 @@
     .company-slider-head{
         margin-top: 20px;
         word-break: break-word;
+    }
+
+    #job-details-section{
+        padding: 30px 50px;
+    }
+
+
+    .job-details-sec-page-header-container button{
+        margin: 30px 0;
+    }
+
+    .job-details-sec-company-details-container{
+        padding: 20px;
+    }
+
+    .job-details-sec-company-details-div{
+        width: 25%;
+        padding: 20px 0;
+    }
+
+    .job-details-sec-company-job-desc-div{
+        padding: 20px;
     }
 
 }

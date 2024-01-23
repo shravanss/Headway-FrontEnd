@@ -342,8 +342,13 @@ body {
     justify-content: center;
 }
 
-.courses-content-div h3{
-    font-size: 3.5rem;
+.courses-content-div h3, .courses-content-div span{
+    font-size: 2.5rem;
+}
+
+.courses-content-div span{
+    color: var(--color-primary);
+    font-size: 4rem;
 }
 
 .courses-content-div p{
@@ -1122,7 +1127,8 @@ body {
     margin-top: 10px;
 }
 
-.job-cards-view-button button{
+.job-cards-view-button a{
+    text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
     padding: 5px 20px;
@@ -1130,6 +1136,53 @@ body {
     outline: none;
     border: none;
     background-color: var(--color-hover);
+    color: var(--color-3);
+}
+
+.jobs-reminder-popup-bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(152, 234, 255, 0.13);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobs-reminder-popup-container{
+    width: 400px;
+    height: 500px;
+    background-color: var(--color-hover);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.jobs-reminder-popup-close-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.jobs-reminder-popup-close-div img{
+    width: 5%;
+}
+
+.jobs-reminder-popup-workshop-div{
+    width: 100%;
+    padding: 20px;
+}
+
+.jobs-reminder-popup-workshop-div p{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 /* --------------------------------------------------------------------------- */
@@ -1317,10 +1370,12 @@ body {
 
 .what-offer-content{
     width: 100%;
+    /* height: 100%; */
 }
 
-.what-offer-content p{
-    font-size: 1.8rem;
+.what-offer-content p ul li{
+    font-size: 2rem !important;
+    padding-top: 10px;
 }
 
 #job-postings:hover, #hiring-through-profiles:hover, #bulk-hiring:hover{
@@ -1526,3 +1581,110 @@ body {
 
 /* --------------------------------------------------------------------------- */
 /* College Page End*/
+
+/* --------------------------------------------------------------------------- */
+/* Job Details Page Start*/
+
+#job-details-section{
+    width: 100vw;
+    height: fit-content;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px;
+}
+
+.job-details-sec-page-header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color-hover);
+}
+
+.job-details-sec-page-header-div{
+    display: flex;
+    align-items: center;
+}
+
+.job-details-sec-page-header-div a img{
+    width: 70%;
+}
+
+.job-details-sec-page-header-div h2{
+    font-size: 5rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.job-details-sec-page-header-container button{
+    font-size: 2rem;
+    color: var(--color-3);
+    font-weight: 700;
+    background-color: var(--color-hover);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    justify-self: flex-end;
+    transition: 0.2s ease-in-out;
+}
+
+.job-details-sec-page-header-container button:hover{
+    background-color: var(--background);
+    cursor: pointer;
+}
+
+.job-details-sec-company-details-container{
+    width: 100%;
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--background);
+    flex-wrap: wrap;
+}
+
+.job-details-sec-company-details-div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.job-details-sec-company-details-div h4{
+    font-size: 1.5rem;
+}
+
+.job-details-sec-company-details-div h3{
+    font-size: 2rem;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.job-details-sec-company-job-desc-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.job-details-sec-company-job-desc-div h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.job-details-sec-company-job-desc-div p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 180%;
+}
+
+
+
+/* --------------------------------------------------------------------------- */
+/* Job Details Page End*/
