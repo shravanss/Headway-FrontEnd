@@ -247,6 +247,7 @@
 
     .enquiry-form-course-details{
         width: 100%;
+        height: 250px;
     }
     
     .enquiry-form-course-details-container{
@@ -314,7 +315,14 @@
         padding: 20px;
     }
 
+    .colleges-banner-container{
+        flex-direction: column;
+    }
 
+    .colleges-banner-div{
+        margin-top: 20px;
+        width: 100%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -566,6 +574,7 @@
 
     .enquiry-form-course-details{
         width: 100%;
+        height: 250px;
     }
     
     .enquiry-form-course-details-container{
@@ -639,6 +648,15 @@
 
     .job-details-sec-company-job-desc-div{
         padding: 20px;
+    }
+
+    .colleges-banner-container{
+        flex-direction: column;
+    }
+
+    .colleges-banner-div{
+        margin-top: 10px;
+        width: 90%;
     }
 
 }
@@ -895,6 +913,7 @@
 
     .enquiry-form-course-details{
         width: 100%;
+        height: 250px;
     }
     
     .enquiry-form-course-details-container{
@@ -956,6 +975,16 @@
     .job-details-sec-company-job-desc-div{
         padding: 20px;
     }
+
+    .colleges-banner-container{
+        flex-direction: column;
+    }
+
+    .colleges-banner-div{
+        margin-top: 10px;
+        width: 90%;
+    }
+
 
 }
 
@@ -1122,6 +1151,7 @@
 
     .enquiry-form-course-details{
         width: 100%;
+        height: 300px;
     }
     
     .enquiry-form-course-details-container{

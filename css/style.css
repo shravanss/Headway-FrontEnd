@@ -1421,6 +1421,67 @@ body {
 /* --------------------------------------------------------------------------- */
 /* College Page Start*/
 
+.colleges-hero-sec{
+    height: fit-content !important;
+    margin-bottom: 80px;
+}
+
+.colleges-banner-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colleges-banner-div{
+    width: 48%;
+    height: fit-content;
+    padding: 30px 20px;
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    display: flex;
+}
+
+.colleges-banner-content-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colleges-banner-content-div h3{
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.colleges-banner-content-div p{
+    font-size: 3rem;
+}
+
+.colleges-banner-content-div button{
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: var(--color-hover);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.colleges-banner-img-div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colleges-banner-img-div img{
+    width: 90%;
+}
+
 .offered-course-sec{
     height: fit-content !important;
 }
@@ -1435,29 +1496,46 @@ body {
 }
 
 .courses-card-div{
-    width: fit-content;
+    width: 350px;
     height: fit-content;
     background-color: #ECF8FB;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
     flex-wrap: wrap;
 }
 
+.courses-card-dur-details-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-card-dur-details-container h5, .courses-card-dur-details-container h5 span{
+    font-size: 1.8rem;
+    color: #9A9A9A;
+    margin-top: 10px;
+}
+
 .courses-card-div h3{
     font-size: 3rem;
     font-weight: 800;
+    text-align: center;
+    min-height: 80px;
 }
 
 .courses-card-div p{
     font-size: 1.5rem;
     font-weight: 400;
     width: 300px;
-    padding: 20px 0;
+    height: 145px;
+    margin: 20px 0;
+    overflow: hidden;
 }
 
 .courses-card-div button{
@@ -1491,6 +1569,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px;
+    margin: 50px;
 }
 
 .enquiry-form-header{
@@ -1524,8 +1603,10 @@ body {
 .enquiry-form-course-details{
     background-color: var(--color-secondary);
     width: 80%;
+    height: 90%;
     padding: 20px;
     border-radius: 10px;
+    overflow: scroll;
 }
 
 .enquiry-form-course-details p{
