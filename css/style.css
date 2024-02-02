@@ -107,6 +107,11 @@ body {
     padding: 0 20px;
 }
 
+.nav-selected{
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
 .nav-student-container{
     display: flex !important;
     flex-direction: column;
@@ -239,15 +244,19 @@ body {
     flex-direction: column;
 }
 
+.jobs-slider-content-container{
+    width: 60%;
+}
+
 .index-slider-head{
     color: var(--color-3);
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 700;
 }
 
 .index-slider-sub{
     color: var(--color-primary);
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -352,12 +361,12 @@ body {
 }
 
 .courses-content-div p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 30px 0;
 }
 
 .courses-content-div a{
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--color-secondary);
     background-color: var(--color-primary);
@@ -718,7 +727,7 @@ body {
 
 #contactus-section{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background-color: var(--color-secondary);
     padding: 0 80px;
 }
@@ -885,7 +894,7 @@ body {
 }
 
 .jobs-slider-head{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .jobs-slider-sub{
@@ -894,7 +903,7 @@ body {
 
 .jobs-slider-para{
     font-size: 2rem;
-    width: 60%;
+    width: 80%;
 }
 
 .jobs-slider-image{
@@ -1444,7 +1453,7 @@ body {
 }
 
 .colleges-banner-content-div{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1458,6 +1467,13 @@ body {
 }
 
 .colleges-banner-content-div p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.colleges-banner-content-para{
+    font-weight: 700;
     font-size: 3rem;
 }
 
