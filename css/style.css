@@ -27,8 +27,8 @@ body {
 
 #hero-section{
     width: 100vw;
-    height: 100vh;
-    padding: 0 80px;
+    min-height: fit-content;
+    padding: 0 80px 50px 80px;
 }
 
 .index-navbar-container{
@@ -192,7 +192,6 @@ body {
 
 .slider-container{
     width: 100%;
-    height: 70%;
     position: relative;
     margin-top: 30px;
     background-color: #fff;
@@ -204,38 +203,15 @@ body {
 }
 
 .mySlides {
-    display: none;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    min-height: fit-content;
 }
 
 .slider-image {
     width: 45%;
-}
-
-.dot-container{
-    position: absolute;
-    bottom: 2%;
-    left: 50%;
-    right: -50%;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    border: 2px solid #8C8C8C;
-    background-color: #545B6D;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: var(--color-primary);
-    height: 18px;
-    width: 18px;
 }
 
 .slider-content-container{
@@ -309,7 +285,7 @@ body {
 
 #courses-section{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     padding: 0 80px;
     background-color: var(--color-secondary);
 }
@@ -341,6 +317,7 @@ body {
     width: 100%;
     height: 80%;
     display: flex;
+    margin-top: 40px;
 }
 
 .courses-content-div{
@@ -349,6 +326,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
 }
 
 .courses-content-div h3, .courses-content-div span{
@@ -403,7 +381,7 @@ body {
 
 #compaies-section, #jobseekers-section{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     padding: 0 80px;
     background-color: var(--background);
 }
@@ -736,6 +714,7 @@ body {
     width: 100%;
     height: 80%;
     display: flex;
+    padding: 40px;
 }
 
 .contactus-form-container{
